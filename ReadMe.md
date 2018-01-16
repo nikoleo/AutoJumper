@@ -1,4 +1,4 @@
-# JumperHelper
+# AutoJumper
 
 本程序基于Nihiue的思路，添加了图像检测、自动运行等代码。
 
