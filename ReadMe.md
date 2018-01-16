@@ -15,6 +15,12 @@
 7. 计算Jumper基点到目标平台中心的距离，转换为触屏按压时间
 8. 通过ADB发送触屏按压命令
 
+## 编译环境
+
+VS2015
+
+将adb.exe、AdbWinApi.dll、AdbWinUsbApi.dll、Settings.ini放到bin/Debug或bin/Release文件夹下，才能正常运行程序。
+
 ## 应用环境
 
 - Android 手机
@@ -22,7 +28,7 @@
 
 不能同时连接多台手机，需要手机开启USB调试模式。
 
-## 步骤
+## 应用步骤
 
 1. 手机开启USB调试模式，通过USB连接电脑
 2. 启动程序，点击“测试ADB”，若显示“连接成功”，表示可以使用
